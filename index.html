@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceHub - Your Trusted Home Services Partner</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="./img1/Screenshot 2025-07-24 103518.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <span>ServiceHub</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-buttons">
+                <button class="btn-secondary" id="login-btn">
+                    <i class="fas fa-user"></i>
+                    Login
+                </button>
+                <button class="btn-primary" id="signup-btn">
+                    <i class="fas fa-user-plus"></i>
+                    Sign Up
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="floating-elements">
+                <div class="floating-icon" style="top: 20%; left: 10%;">
+                    <i class="fas fa-broom"></i>
+                </div>
+                <div class="floating-icon" style="top: 60%; right: 15%;">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <div class="floating-icon" style="top: 30%; right: 25%;">
+                    <i class="fas fa-cut"></i>
+                </div>
+                <div class="floating-icon" style="bottom: 30%; left: 20%;">
+                    <i class="fas fa-bolt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Trusted by 50,000+ Customers</span>
+                </div>
+                <h1 class="hero-title">
+                    Premium Home Services
+                    <span class="highlight">At Your Doorstep</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Experience luxury service with verified professionals. From deep cleaning to beauty treatments, 
+                    we bring premium quality services right to your home with transparent pricing and guaranteed satisfaction.
+                </p>
+                <div class="search-container">
+                    <div class="search-box">
+                        <div class="search-icon-wrapper">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                        <input type="text" placeholder="What service do you need? (e.g., AC repair, deep cleaning)" id="search-input">
+                        <button class="search-btn" id="search-btn">
+                            <span>Find Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="popular-searches">
+                        <span>Popular:</span>
+                        <button class="search-tag">Home Cleaning</button>
+                        <button class="search-tag">AC Repair</button>
+                        <button class="search-tag">Beauty at Home</button>
+                        <button class="search-tag">Plumbing</button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Expert Professionals</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="stat-number">4.9★</span>
+                        <span class="stat-label">Average Rating</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support Available</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <img src="./Gemini_Generated_Image_z41q82z41q82z41q.png" alt="Professional Services" class="hero-img">
+                    <div class="hero-card-overlay">
+                        <div class="service-preview">
+                            <div class="service-preview-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Verified Professionals</span>
+                            </div>
+                            <div class="service-preview-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Insured & Background Checked</span>
+                            </div>
+                            <div class="service-preview-item">
+                                <i class="fas fa-money-bill-wave"></i>
+                                <span>Transparent Pricing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="trust-indicators">
+        <div class="container">
+            <div class="trust-logos">
+                <div class="trust-item">
+                    <img src="./img1/Google Partner.jpeg" alt="Google Partner">
+                </div>
+                <div class="trust-item">
+                    <img src="./img1/BBB Accredited.png" alt="BBB Accredited">
+                </div>
+                <div class="trust-item">
+                    <img src="./img1/Angie's List.png" alt="Angie's List">
+                </div>
+                <div class="trust-item">
+                    <img src="./img1/HomeAdvisor.png" alt="HomeAdvisor">
+                </div>
+                <div class="trust-item">
+                    <img src="./img1/Thumbtack Pro.png" alt="Thumbtack Pro">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Services -->
+    <section class="popular-services">
+        <div class="section-bg">
+            <div class="bg-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-fire"></i>
+                    <span>Most Popular</span>
+                </div>
+                <h2 class="section-title">Trending Services</h2>
+                <p class="section-subtitle">Most booked services by our premium customers this month</p>
+            </div>
+            <div class="services-carousel" id="services-carousel">
+                <div class="service-card premium">
+                    <div class="service-image">
+                        <img src="./img1/Premium Home Cleaning.png" alt="Home Cleaning">
+                        <div class="service-badge">
+                            <i class="fas fa-crown"></i>
+                            <span>Premium</span>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h3>Premium Home Cleaning</h3>
+                        <p>Deep cleaning with eco-friendly products and professional equipment</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> 100% Eco-friendly</span>
+                            <span><i class="fas fa-check"></i> Insured professionals</span>
+                        </div>
+                        <div class="service-footer">
+                            <span class="service-price">Starting at <strong>$35</strong></span>
+                            <div class="service-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9 (2.1k)</span>
+                            </div>
+                        </div>
+                        <button class="service-btn">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./img1/AC Repair & Service.png" alt="AC Repair">
+                        <div class="service-badge hot">
+                            <i class="fas fa-fire"></i>
+                            <span>Hot</span>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h3>AC Repair & Service</h3>
+                        <p>Expert AC installation, repair, and maintenance with warranty</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Same day service</span>
+                            <span><i class="fas fa-check"></i> 1 year warranty</span>
+                        </div>
+                        <div class="service-footer">
+                            <span class="service-price">Starting at <strong>$45</strong></span>
+                            <div class="service-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8 (1.8k)</span>
+                            </div>
+                        </div>
+                        <button class="service-btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./img1/Beauty Services.png" alt="Beauty Services">
+                        <div class="service-badge new">
+                            <i class="fas fa-sparkles"></i>
+                            <span>New</span>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h3>Beauty at Home</h3>
+                        <p>Professional salon services in the comfort of your home</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Certified beauticians</span>
+                            <span><i class="fas fa-check"></i> Premium products</span>
+                        </div>
+                        <div class="service-footer">
+                            <span class="service-price">Starting at <strong>$30</strong></span>
+                            <div class="service-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9 (3.2k)</span>
+                            </div>
+                        </div>
+                        <button class="service-btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./img1/Plumbing.png" alt="Plumbing">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3>Expert Plumbing</h3>
+                        <p>24/7 emergency plumbing services with licensed professionals</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> 24/7 emergency</span>
+                            <span><i class="fas fa-check"></i> Licensed plumbers</span>
+                        </div>
+                        <div class="service-footer">
+                            <span class="service-price">Starting at <strong>$40</strong></span>
+                            <div class="service-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.7 (1.5k)</span>
+                            </div>
+                        </div>
+                        <button class="service-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories -->
+    <section class="service-categories" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Complete Service Solutions</h2>
+                <p class="section-subtitle">Comprehensive range of professional services for your home and lifestyle</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-bg">
+                        <img src="./img1/Home Services.png" alt="Home Services">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <div class="category-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Home Services</h3>
+                        <p>Complete home care solutions</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Deep Cleaning & Sanitization</li>
+                            <li><i class="fas fa-check"></i> Regular House Cleaning</li>
+                            <li><i class="fas fa-check"></i> Carpet & Upholstery Cleaning</li>
+                            <li><i class="fas fa-check"></i> Kitchen Deep Cleaning</li>
+                            <li><i class="fas fa-check"></i> Bathroom Sanitization</li>
+                        </ul>
+                        <div class="category-stats">
+                            <span><i class="fas fa-users"></i> 15k+ bookings</span>
+                            <span><i class="fas fa-star"></i> 4.9 rating</span>
+                        </div>
+                        <button class="category-btn">
+                            <span>Explore Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-bg">
+                        <img src="./img1/Repairs & Maintenance  .png" alt="Repair Services">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Repairs & Maintenance</h3>
+                        <p>Expert repair solutions</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Emergency Plumbing</li>
+                            <li><i class="fas fa-check"></i> Electrical Repairs</li>
+                            <li><i class="fas fa-check"></i> Carpentry & Furniture</li>
+                            <li><i class="fas fa-check"></i> Wall Painting & Touch-ups</li>
+                            <li><i class="fas fa-check"></i> Door & Window Repairs</li>
+                        </ul>
+                        <div class="category-stats">
+                            <span><i class="fas fa-users"></i> 12k+ bookings</span>
+                            <span><i class="fas fa-star"></i> 4.8 rating</span>
+                        </div>
+                        <button class="category-btn">
+                            <span>Explore Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-bg">
+                        <img src="./img1/Beauty & Wellness.png" alt="Beauty Services">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <div class="category-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3>Beauty & Wellness</h3>
+                        <p>Premium beauty treatments</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Hair Styling & Cuts</li>
+                            <li><i class="fas fa-check"></i> Facial & Skin Care</li>
+                            <li><i class="fas fa-check"></i> Massage Therapy</li>
+                            <li><i class="fas fa-check"></i> Manicure & Pedicure</li>
+                            <li><i class="fas fa-check"></i> Bridal Makeup</li>
+                        </ul>
+                        <div class="category-stats">
+                            <span><i class="fas fa-users"></i> 20k+ bookings</span>
+                            <span><i class="fas fa-star"></i> 4.9 rating</span>
+                        </div>
+                        <button class="category-btn">
+                            <span>Explore Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-bg">
+                        <img src="./img1/Appliance Services.png" alt="Appliance Services">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <div class="category-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h3>Appliance Services</h3>
+                        <p>Complete appliance solutions</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> AC Installation & Repair</li>
+                            <li><i class="fas fa-check"></i> Washing Machine Service</li>
+                            <li><i class="fas fa-check"></i> Refrigerator Repair</li>
+                            <li><i class="fas fa-check"></i> Microwave & Oven Service</li>
+                            <li><i class="fas fa-check"></i> Water Heater Repair</li>
+                        </ul>
+                        <div class="category-stats">
+                            <span><i class="fas fa-users"></i> 18k+ bookings</span>
+                            <span><i class="fas fa-star"></i> 4.8 rating</span>
+                        </div>
+                        <button class="category-btn">
+                            <span>Explore Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-bg">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge light">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Simple Process</span>
+                </div>
+                <h2 class="section-title">How ServiceHub Works</h2>
+                <p class="section-subtitle">Get premium services in just 3 simple steps</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-image">
+                        <img src="./img1/Choose Service .png" alt="Choose Service">
+                        <div class="step-number">1</div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Choose Your Service</h3>
+                        <p>Browse our comprehensive catalog of premium services and select what you need. Filter by category, price, or ratings to find the perfect match.</p>
+                        <ul class="step-features">
+                            <li><i class="fas fa-check"></i> 200+ services available</li>
+                            <li><i class="fas fa-check"></i> Transparent pricing</li>
+                            <li><i class="fas fa-check"></i> Real customer reviews</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-image">
+                        <img src="./img1/create a image.png" alt="Book Appointment">
+                        <div class="step-number">2</div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Book Your Slot</h3>
+                        <p>Select your preferred date and time, choose from our verified professionals, and customize your service requirements with ease.</p>
+                        <ul class="step-features">
+                            <li><i class="fas fa-check"></i> Flexible scheduling</li>
+                            <li><i class="fas fa-check"></i> Verified professionals</li>
+                            <li><i class="fas fa-check"></i> Instant confirmation</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-image">
+                        <img src="./img1/Get Service.png" alt="Get Service">
+                        <div class="step-number">3</div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Enjoy Premium Service</h3>
+                        <p>Relax while our expert professional arrives on time and delivers exceptional service with premium tools and guaranteed satisfaction.</p>
+                        <ul class="step-features">
+                            <li><i class="fas fa-check"></i> On-time guarantee</li>
+                            <li><i class="fas fa-check"></i> Premium equipment</li>
+                            <li><i class="fas fa-check"></i> 100% satisfaction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-heart"></i>
+                    <span>Customer Love</span>
+                </div>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real experiences from thousands of satisfied customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card featured">
+                    <div class="testimonial-bg">
+                        <div class="testimonial-pattern"></div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <p class="testimonial-text">
+                            "Absolutely incredible service! The cleaning team was professional, thorough, and used eco-friendly products. 
+                            My house has never looked better. The booking process was seamless and the pricing was transparent. 
+                            Highly recommend ServiceHub!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="./img1/Sarah Johnson.png" alt="Sarah Johnson" class="author-avatar">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Premium Home Cleaning</span>
+                                <div class="author-location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Manhattan, NY</span>
+                                </div>
+                            </div>
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <p class="testimonial-text">
+                            "Emergency AC repair on a Sunday! The technician arrived within 2 hours, diagnosed the problem quickly, 
+                            and had it fixed with a 1-year warranty. Exceptional service!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="./img1/manoj .png" alt="Mike Chen" class="author-avatar">
+                            <div class="author-info">
+                                <h4>Sachin Kumar</h4>
+                                <span>AC Repair Service</span>
+                                <div class="author-location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Delhi, IND</span>
+                                </div>
+                            </div>
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                        <p class="testimonial-text">
+                            "The beauty service at home was amazing! Professional beautician with high-quality products. 
+                            Saved me a trip to the salon and the results were even better. Will definitely book again!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="./img1/suhail.png" alt="Emma Wilson" class="author-avatar">
+                            <div class="author-info">
+                                <h4>Suhail Khan</h4>
+                                <span>Beauty at Home</span>
+                                <div class="author-location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Hyd,IND</span>
+                                </div>
+                            </div>
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-stats">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">4.9/5</span>
+                        <span class="stat-label">Average Rating</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">25K+</span>
+                        <span class="stat-label">Reviews</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Repeat Customers</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Satisfaction Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download Section -->
+    <section class="app-download">
+        <div class="app-bg">
+            <div class="app-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="app-content">
+                <div class="app-text">
+                    <div class="app-badge">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Download Now</span>
+                    </div>
+                    <h2>Get the ServiceHub App</h2>
+                    <p>Experience the convenience of booking premium services on-the-go. Exclusive app-only offers, real-time tracking, and instant support.</p>
+                    <div class="app-features">
+                        <div class="app-feature">
+                            <i class="fas fa-bolt"></i>
+                            <span>Instant Booking</span>
+                        </div>
+                        <div class="app-feature">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Real-time Tracking</span>
+                        </div>
+                        <div class="app-feature">
+                            <i class="fas fa-percent"></i>
+                            <span>Exclusive Offers</span>
+                        </div>
+                        <div class="app-feature">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <img src="./img1/Download on App Store.png" alt="Download on App Store">
+                        </a>
+                        <a href="#" class="app-btn">
+                            <img src="./img1/Google_Play_Store_badge_EN.svg.png" alt="Get it on Google Play">
+                        </a>
+                    </div>
+                    <div class="app-stats">
+                        <div class="app-stat">
+                            <span class="app-stat-number">1M+</span>
+                            <span class="app-stat-label">Downloads</span>
+                        </div>
+                        <div class="app-stat">
+                            <span class="app-stat-number">4.8★</span>
+                            <span class="app-stat-label">App Rating</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-image">
+                    <div class="app-mockup-container">
+                        <img src="./img1/ServiceHub Mobile App.png" alt="ServiceHub Mobile App" class="app-mockup">
+                        <div class="app-mockup-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-bg">
+            <div class="footer-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section main">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <span>ServiceHub</span>
+                    </div>
+                    <p>Your premium partner for exceptional home services. We connect you with verified professionals who deliver quality, reliability, and satisfaction every time.</p>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9372562979</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@servicehub.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span> Sector 63 Service Street, Noida 310208</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Popular Services</h3>
+                    <ul>
+                        <li><a href="#">Home Cleaning</a></li>
+                        <li><a href="#">AC Repair & Service</a></li>
+                        <li><a href="#">Plumbing Services</a></li>
+                        <li><a href="#">Electrical Repairs</a></li>
+                        <li><a href="#">Beauty at Home</a></li>
+                        <li><a href="#">Appliance Repair</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About ServiceHub</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press & Media</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Partner with Us</a></li>
+                        <li><a href="#">Become a Pro</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                        <li><a href="#">Service Guarantee</a></li>
+                        <li><a href="#">Safety Standards</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>&copy; 2024 ServiceHub Inc. All rights reserved.</p>
+                    <div class="footer-certifications">
+                        <img src="./img1/SSL Certified.png" alt="SSL Certified">
+                        <img src="./img1/BBB Accredited.png" alt="BBB Accredited">
+                        <img src="./img1/ISO Certified.png" alt="ISO Certified">
+                    </div>
+                </div>
+                <div class="footer-bottom-right">
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
